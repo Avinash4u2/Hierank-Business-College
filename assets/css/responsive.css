@@ -24,7 +24,30 @@
     height: 138px;
     overflow: hidden;
 }
+.campus-life-heading::after {
+    content: " ";
+    bottom: 8px;
+    left: 5%;
+    height: 2px;
+    background: black;
+    width: 344px;
+    position: absolute;
+}
 
+.campus-life-heading h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.programme_head::after {
+    content: " ";
+    bottom: 38px;
+    left: 3%;
+    height: 2px;
+    background: black;
+    width: 324px;
+    position: absolute;
+}
 
 }
 @media only screen and (max-width: 1600px){
@@ -221,7 +244,8 @@
     }
 
        .about_right_content h5 {
-        font-size: 13px;
+        padding-top: 13px;
+        font-size: 20px;
         letter-spacing: 2px;
         font-weight: 600;
         color: #f5bd06;
@@ -229,12 +253,12 @@
 
 .about_right_content h2:before {
     position: absolute;
-    bottom: 15px;
+    bottom: 27px;
     left: 0;
-    width: 100px;
-    height: 3px;
+    width: 73px;
+    height: 2px;
     content: '';
-    border-radius: 3;
+    border-radius: 3px;
     background-color: var(--theme-color-two);
 }
     .about_section_home_two{
@@ -276,7 +300,7 @@
         padding-bottom: 0px;
     }
     .about_section_home_one .shape-map {
-   position: absolute;
+       position: absolute;
         top: 20%;
         left: calc(4%);
         z-index: -1;
@@ -290,12 +314,11 @@
         margin-left: 0;
     }
     .about_section_home_one .about_right_content p{
-      margin-bottom: 20px;
-    text-align: justify;
-    font-size: 14px;
-    line-height: 26px;
+       text-align: justify;
+    font-size: 17px;
+    line-height: 28px;
     font-weight: 400;
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
     color: var(--theme-color-two);
 }
     .about_section_home_one .about_right_content .link-btn{
@@ -900,7 +923,7 @@
         text-align: left;
     }
     .section_title_one h2{
-        font-size: 32px;
+       font-size: 23px;
         line-height: 42px;
     }
     .funfact_section_home_one,
@@ -929,10 +952,9 @@
         margin-bottom: 10px;
     }
      .about_right_content h2 {
-        font-size: 18px;
-        line-height: 42px;
-        margin-bottom: -7px;
-    
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 6px;    
     }
 
     .cap_logo img {
